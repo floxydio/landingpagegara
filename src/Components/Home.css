@@ -1,0 +1,56 @@
+
+.body-clr {
+    background: var(
+      --BG-color,
+      linear-gradient(180deg, #f0fbff 0%, #c4f0ff 100%)
+    );
+  }
+  .text {
+    background: -webkit-linear-gradient(#e3327f, #6f3c92);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .btn-bg {
+    background: radial-gradient(
+      119.93% 181.27% at 47.48% 43.75%,
+      #f877ae 2.12%,
+      #e5327e 27.51%,
+      #8b3c92 62.27%,
+      #4e308d 100%
+    );
+  }
+ 
+
+  
+  .cursor{
+    z-index: 999;
+    position: fixed;
+    background: rgba(255, 255, 255, 0.261);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    pointer-events: none;
+    animation: colors 5s infinite;
+    transform: translate(-50%, -50%);
+    display: none;
+  }
+  
+  @keyframes colors{
+    0%{
+      filter: hue-rotate(0deg);
+    }
+    100%{
+      filter: hue-rotate(360deg);
+    }
+  }
+  
+  .cursor:before{
+    content: '';
+    position: absolute;
+    background: rgba(255, 255, 255, 0.297);
+    width: 50px;
+    height: 50px;
+    opacity: 0.2;
+    border-radius: 50%;
+  }
+        
