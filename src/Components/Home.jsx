@@ -17,7 +17,7 @@ export default function Home() {
             cursor.style.display = "block";
             imgs.style.transform = `translate(${x / 200}px,${y / 200}px)`;
             imgsTwo.style.transform = `translate(${x / 200}px,${y / 200}px)`;
-            imgsThree.style.transform = `translate(${x / 200}px,${y / 200}px)`;
+            // imgsThree.style.transform = `translate(${x / 200}px,${y / 200}px)`;
             // set width keep 100%
             imgs.style.width = "100%";
 
