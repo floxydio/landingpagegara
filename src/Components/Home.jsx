@@ -66,7 +66,15 @@ export default function Home() {
                         commitment to empowering businesses in achieving their sustainability
                         goals remains unwavering.
                     </span>
-                    <div className="mt-[48px] w-[187px] h-[48px] ml-auto mr-auto btn-bg rounded-[14px]">
+                    {/* add border outside button */}
+                <div className='ml-auto mr-auto h-[48px]' style={{
+                 
+
+                }}>
+                <div className="btn-new mt-[48px] w-[187px] h-[48px]  btn-bg rounded-[14px]" style={{
+                        outline: "1px solid #f877ae",
+                        outlineOffset: "5px"
+                    }}>
                         <div
                             className="flex
         flex-row
@@ -87,6 +95,7 @@ export default function Home() {
 
                         </div>
                     </div>
+                </div>
                 </div>
                 <div
                     className="absolute
