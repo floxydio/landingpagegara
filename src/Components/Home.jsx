@@ -55,8 +55,8 @@ export default function Home() {
                         <i className="fa-brands fa-linkedin-in sm:hidden md:hidden lg:block max-[412px]:hidden" />
                     </a>
                 </div>
-                <div className="mt-[47px] text-center flex flex-col z-1 max-[412px]:ml-auto">
-                    <span className="text-[88px] font-[700] bruta-pro text">
+                <div className="mt-[47px] text-center flex flex-col z-1">
+                    <span className="text-[88px] font-[700] bruta-pro text max-[412px]:ml-auto lg:ml-0">
                         We're Building Tomorrow's
                         <br />
                         Environment, Today
@@ -66,23 +66,26 @@ export default function Home() {
                         commitment to empowering businesses in achieving their sustainability
                         goals remains unwavering.
                     </span>
-                    <div className="mt-[48px] w-[187px] h-[48px] ml-auto mr-auto btn-bg rounded-[14px]">
+                    <div className="mt-[48px] w-[187px] h-[48px] ml-auto mr-auto btn-bg rounded-[14px] cursor-pointer" onClick={() => {
+                        window.open('mailto:info.ss@sanitra.co.id', '_blank')
+                    }}>
                         <div
                             className="flex
         flex-row
         pt-[12px]
         justify-center
-        items-center"
+        items-center ml-auto max-[412px]:mr-0 lg:mr-auto"
                         >
-                            <a href='mailto:info.ss@sanitra.co.id' target='_blank'>
-                                <span
+                            {/* <a href='mailto:info.ss@sanitra.co.id' target='_blank'>
+                             
+                            </a> */}
+                            <span
                                     className="text-white
             text-center
             cursor-pointer"
                                 >
                                     Contact Us
                                 </span>
-                            </a>
                             <img src="/img/send_icon.png" alt="img_arrow" className='ml-[10px]' />
 
                         </div>
