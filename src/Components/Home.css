@@ -24,6 +24,8 @@
 
 
 .body-clr {
+    width: 100%!important;
+    
     background: var(
       --BG-color,
       linear-gradient(180deg, #f0fbff 0%, #c4f0ff 100%)
