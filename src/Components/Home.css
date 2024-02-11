@@ -43,6 +43,19 @@
       #4e308d 100%
     );
   }
+  .btn-new {
+    position: relative
+  }
+  .btn-new::before{
+    content: " ";
+  position: absolute;
+  top: -13px;
+  left: -13px;
+  right: -13px;
+  bottom: -13px;
+  border-radius: 14px;
+  border: 1px solid #f877ae;
+  }
   
   .cursor{
     z-index: 999;

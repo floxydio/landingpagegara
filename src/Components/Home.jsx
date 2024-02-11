@@ -91,6 +91,7 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
+                </div>
                 <div
                     className="absolute
                     max-[412px]:bg-no-repeat
@@ -139,7 +140,7 @@ imgs"
     mx-auto"
                     />
                 </div>
-            </div>
+          
 
         </>
     )
